@@ -1,5 +1,5 @@
 const count = document.querySelectorAll('ul#categories li.item');
-console.log(`Number of catagories: ${count.length}`);
+console.log(`Number of categories: ${count.length}`);
 
 count.forEach(category => {
     const itemTitle = category.querySelector('h2').textContent;
