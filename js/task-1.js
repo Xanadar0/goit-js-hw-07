@@ -1,4 +1,5 @@
 const count = document.querySelectorAll('ul#categories li.item');
+
 console.log(`Number of categories: ${count.length}`);
 
 count.forEach(category => {
